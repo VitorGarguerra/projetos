@@ -1,0 +1,149 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.App {
+  padding: 5px;
+  background-color: #000;
+}
+
+.menu {
+  background-color: #141414;
+  padding: 2px;
+  margin: 5px;
+  margin-right: 43em;
+  color: #ffffff7c;
+  border-radius: 8px;
+}
+
+li {
+  margin: 20px;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content:flex-end;
+  margin: -127px 10px 0px 320px ;
+  padding: 10px;
+  background-color: #141414;
+  color: #ffffff7c;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.entrar {
+  margin-left: 40px;
+  color: #000;
+  border-radius: 20px;
+  background-color: #f2f2f2f2;
+  padding: 15px;
+} 
+
+.inscrever {
+  margin-top: 13px;
+}
+
+.piano {
+  display: inline-block;
+  align-items: center;
+  margin: 25px 4px 10px 16px;
+  color: #f2f2f2f2;
+  background-color: #222222;
+  height: 305px;
+  width: 200px;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.img {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.titulo {
+  padding: 8px;
+}
+
+.cabeçalho {
+  color: #ffffffe7;
+  background-image: linear-gradient(to bottom, #1d1d1d, #0f0f0f);
+  padding: 33px;
+  margin-left: 320px;
+  margin-right: 0px;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffffe7;
+}
+
+.h2:hover {
+ text-decoration: underline; 
+}
+ .biblioteca {
+  color: #f2f2f2f2;
+  background-color: #141414;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 1033px;
+  margin-left: 6px;
+  margin-bottom: -645px;
+ }
+
+ .criar {
+  background-color: #262626;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 15px;
+ }
+
+ .play {
+  background-color: #f2f2f2f2;
+  color: #000;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 140px;
+ }
+
+.explore {
+  background-color: #f2f2f2f2;
+  color: #000;
+  border-radius: 20px;
+  padding: 8px;
+  margin-top: 20px;
+  margin-right: 110px;
+}
+
+.footer {
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 70px;
+  margin-right: 90px;
+}
+
+.bibli {
+  display: flex;
+  justify-content: space-between;
+}
+
+a:hover {
+  transform: scale(1.1);
+}   
+
+.piano:hover {
+  background-color: #f2f2f227;
+}
+
+.piano:hover .img {
+  box-shadow: 5px 8px 8px 0px #00000065;
+}

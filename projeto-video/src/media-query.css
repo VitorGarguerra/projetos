@@ -1,0 +1,9 @@
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    .header {
+        display: flex;
+        margin: 10px;
+        border-bottom: 1px solid #f30404;
+      }
+      
+
+}
