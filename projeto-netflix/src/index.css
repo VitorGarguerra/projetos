@@ -1,0 +1,215 @@
+
+  body {
+    margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+}
+
+.gradient {
+  position: absolute;
+  top: 659px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Altura do degradê, ajuste conforme necessário */
+  background-image: linear-gradient(to bottom, #ffffff00, #1A1A1A);
+}
+
+.header {
+  position: relative;
+  top: -40px;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  margin: 10px;
+}
+
+.lista {
+  position: absolute;
+  left: 20px;
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li {
+  padding: 5px;
+  margin: 10px;
+}
+
+.h2 {
+  padding: 14px;
+  color: #E10813;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.right {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  margin: 50px;
+  display: flex;
+  font-size: 29px;
+}
+
+p {
+  margin: 20px;
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+.img {
+  width: 35px;
+  height: 35px;
+  margin-left: 17px;
+  border-radius: 5px;
+}
+
+.cabeçalho {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; 
+  background-image: linear-gradient(to top, #ffffff00, #1A1A1A);
+}
+
+.text {
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  color: #fff;
+  width: 600px;
+}
+
+.text01 {
+  margin-top: -20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.603);
+  font-size: 19px;
+}
+
+@font-face {
+  font-family: 'bigdream';
+  src: url('/public/assents/BIGDREAM-PersonalUse.otf') ; }
+h1 {
+  font-family: 'bigdream', sans-serif;
+  font-size: 85px;
+}
+
+.button {
+  position: absolute;
+  top: 480px;
+  left: 110px;
+}
+
+.button01 {
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.button01:hover {
+  background-color: #ffffffb7;
+}
+
+.button02 {
+  padding: 10px;
+  border: none;
+  background-color: #868686d2;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.button02:hover {
+  background-color: #8686869c;
+}
+
+.icon01 {
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.icon02 {
+  font-size: 20px;
+}
+
+.section {
+  color: #fff;
+  position: absolute;
+  top: 590px;
+  left: 50px;
+}
+
+.img00 {
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.img00:hover {
+  transform: scale(1.4);
+  transition: 0.7s;
+}
+
+.section01 {
+  color: #fff;
+  position: absolute;
+  top: 815px;
+  left: 50px;
+}
+
+.legenda {
+  visibility: hidden;
+  position: absolute;
+  left: 5px;
+  bottom: -100px;
+  border-radius: 5px;
+  background-color: #000000;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  width: 244px;
+  margin-top: 95px;
+}
+
+.container:hover .legenda {
+  visibility: visible;
+  transform: scale(1.4);
+  transition: 0.7s;
+}
+
+.nav {
+  visibility: hidden;
+}
+
+.home {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
