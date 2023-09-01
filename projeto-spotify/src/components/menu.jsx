@@ -5,8 +5,8 @@ const Menu =() => {
     return (
         <h2 className='menu'>
             <ul>
-                <a href="https://www.twitch.tv/paulinholokobr"><li> <AiOutlineHome/> Inicio</li></a>
-                <a href="https://www.twitch.tv/paulinholokobr"><li> <AiOutlineSearch/> Buscar</li></a> 
+                <li><a href="https://www.twitch.tv/paulinholokobr"> <AiOutlineHome/> Inicio</a></li>
+                <li><a href="https://www.twitch.tv/paulinholokobr"> <AiOutlineSearch/> Buscar</a> </li>
             </ul>
         </h2>
 
