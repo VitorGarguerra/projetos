@@ -1,7 +1,27 @@
 @media screen and (min-width: 767px) and (max-width:991px) {
     
-    .piano {
+    .header {
         position: absolute;
-        top: 50px;
+        top: 137px;
+        left: 5px;
+        width: 600px;
 }
+    .menu {
+        font-size: 20px;
+        width: 300px;
+        padding: 5px;
+    }
+    .icone {
+        padding-right: 10px;
+    }
+
+    .cabeçalho {
+        position: absolute;
+        top: 79px;
+        width: 554px;
+    }
+    .piano {
+        width: 180px;
+        height: 280px;
+    }
 }

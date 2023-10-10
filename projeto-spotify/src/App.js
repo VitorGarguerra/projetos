@@ -2,7 +2,7 @@ import Menu from './components/menu'
 import Header from './components/header'
 import Section from './components/section'
 import Biblioteca from './components/biblioteca';
-import './media-query.css'
+
 
 function App() {
   return (
